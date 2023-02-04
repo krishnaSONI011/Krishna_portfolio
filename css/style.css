@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.Home{
+    display: flex;
+}
+nav{
+    background-color: rgb(59, 59, 59);
+    width: 300px;
+    height: 100vh;
+    font-family: 'Oxygen', sans-serif;
+}
+.A-me{
+    background-color: black;
+    width: 90vw;
+    display: flex;
+    
+}
+.site-name{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+   
+}
+.site-name h1{
+    border-left: 5px orange solid;
+    border-right: 5px orange solid;
+}
+nav ul{
+    
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    transition: all ease .4s;
+}
+nav ul li a:hover{
+    color: orange;
+}
+nav ul li{
+   padding: 30px;
+}
+/* nav ul li a:hover{
+    background-color: yellow;
+} */
+.A-me-contant{
+    display: flex;
+    width: 90%;
+    /* background-color: pink; */
+    height: 58vh;
+    margin: auto;
+    justify-content: space-around;
+
+}
+.pic-of-me img{
+    height: 58vh;
+}
+.hello{
+    font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size:40px;
+    color: orange;
+
+}
+.who{
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+.tareef{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.A-me-contant-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cv{
+    margin-top: 20px;
+    padding:10px;
+    background-color: orange;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    border: 2px orange solid;
+    transition: all ease .5s;
+    cursor: pointer;
+    width: 40%;
+}
+.cv:hover{
+    background-color: rgb(59, 59, 59);
+    /* color: orange; */
+}
+
+#btn{
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    border: 3px orange solid;
+    border-radius: 10px;
+}
+#btn i{
+    color: orange;
+    font-size: 25px;
+}
+
+/* for responsive */
+@media (max-width:981px) {
+    *{
+        background-color: black;
+    }
+    nav{
+        position: absolute;
+        transform: translate(-337px, 10px);
+    }
+    .A-me{
+       
+    }
+    
+}
