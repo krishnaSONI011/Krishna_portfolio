@@ -76,9 +76,10 @@ nav ul li{
 /* home section  start here ----- */
 .A-me{
     background-color: black;
-    width: 90vw;
+    width: 100vw;
     /* display: flex; */
-    
+    height: 100vh;
+    margin-left: 300px;
 }
 .A-me-contant{
     display: flex;
@@ -88,6 +89,7 @@ nav ul li{
     margin: auto;
     justify-content: space-around;
      margin-top: 96px;
+     
 }
 .pic-of-me img{
     height: 58vh;
@@ -229,7 +231,65 @@ nav ul li{
     font-size: 18px;
     
 }
-
+#digree-name a{
+    text-decoration:  none;
+    padding: 10px;
+    border: 2px orange solid;
+    color: orange;
+    transition: all ease .5s;
+}
+#digree-name a:hover{
+    background-color: rgb(59, 59, 59);
+    /* background-color: orange;
+    color: white; */
+}
+/* about section end here */
+/* project section start here---- */
+.project-container{
+    border: 2px orange solid;
+    width: fit-content;
+    border-radius: 20px;
+}
+.project-container-item img{
+    width: 250px;
+    height: 220px;
+}
+.project-container-item{
+    padding: 28px;
+}
+.project-links{
+margin-top: 10px;
+}
+.project-name {
+    text-align: center;
+}
+.project-name h1{
+    color: orange;
+}
+#p-link{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.link{
+    padding: 5px;
+    text-decoration: none;
+    color: orange;
+    }
+.link:hover{
+    text-decoration: underline;
+}
+#link1{
+    margin-left: 10px;
+}
+#link2{
+    margin-left: 44px;
+}
+.forhieght{
+    height: 100vh;
+}
+.waring{
+    text-align: center;
+}
 /* for responsive */
 @media (max-width:981px) {
     *{
@@ -246,6 +306,7 @@ nav ul li{
     }
     .A-me{
        background-color: black;
+       margin-left: 0;
     }
     #btn{
         display: block;
@@ -272,6 +333,14 @@ nav ul li{
     .cv{
         font-size: 12px;
     }
+
+    .about-me-item{
+        padding: 10px;
+
+    }
+    .about{
+        padding: 5px;
+    }
 }
 @media (max-width:552px) {
   .A-me-contant{
@@ -279,5 +348,33 @@ nav ul li{
   }
   .pic-of-me{
     display: none;
+  }
+  .about-me-item{
+    padding: 5px;
+    font-size: 12px;
+    width: 60%;
+  }
+  #intro{
+    font-size: 1.1rem;
+  }
+  .about-me ul li{
+    padding: 10px;
+    font-size: 18px;
+  }
+  .college{
+    font-size: 1.2rem;
+  }
+  #digree-name{
+    
+    font-size: 16px;
+  }
+  #digree-name a{
+    padding: 5px;
+  }
+  .about-me ul li::before{
+   display: none;
+  }
+  .about-me ul li{
+    
   }
 }
