@@ -91,6 +91,7 @@ nav ul li{
      margin-top: 96px;
      
 }
+
 .pic-of-me img{
     height: 58vh;
 }
@@ -117,6 +118,8 @@ nav ul li{
     flex-direction: column;
     justify-content: center;
 }
+
+
 .cv{
     margin-top: 20px;
     padding:10px;

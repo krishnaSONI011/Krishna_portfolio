@@ -30,3 +30,9 @@ window.addEventListener("resize", function() {
 
         element.style.transform ="translate(-337px, 10px)";
     }
+ /// download btn
+ let download = document.getElementById('cvbtn');
+ download.addEventListener('click', function(){
+    window.open("../krishna_resume.pdf","_blank")
+
+ })
