@@ -33,6 +33,6 @@ window.addEventListener("resize", function() {
  /// download btn
  let download = document.getElementById('cvbtn');
  download.addEventListener('click', function(){
-    window.open("../krishna_resume.pdf","_blank")
+    window.open("https://drive.google.com/file/d/1z13LyF0LpkKiNmbkA_-_K9IN4AIhHQbb/view?usp=sharing","_blank")
 
  })
