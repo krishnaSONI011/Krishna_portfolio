@@ -290,6 +290,18 @@ margin-top: 10px;
 .waring{
     text-align: center;
 }
+/* contact section start here */
+.contact-container-item img{
+    width: 100px;
+    height: 100px;
+}
+.contact-container-item{
+   text-align: center;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+}
 /* for responsive */
 @media (max-width:981px) {
     *{
